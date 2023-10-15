@@ -13,14 +13,15 @@
       ],
       "payable": false,
       "stateMutability": "view",
-      "type": "function"
+      "type": "function",
+      "signature": "0xb6cb58a5"
     }
   ],
-  "bytecode": "0x608060405260008055348015601357600080fd5b50609e806100226000396000f3fe608060405260043610603f576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff168063b6cb58a5146044575b600080fd5b348015604f57600080fd5b506056606c565b6040518082815260200191505060405180910390f35b6000548156fea165627a7a7230582084c912dc9c54f8090257f1afe7b8c6134fcdbd64016739e405ba97e0f9ea517d0029",
-  "deployedBytecode": "0x608060405260043610603f576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff168063b6cb58a5146044575b600080fd5b348015604f57600080fd5b506056606c565b6040518082815260200191505060405180910390f35b6000548156fea165627a7a7230582084c912dc9c54f8090257f1afe7b8c6134fcdbd64016739e405ba97e0f9ea517d0029",
-  "sourceMap": "142:56:0:-;;;191:1;167:25;;142:56;8:9:-1;5:2;;;30:1;27;20:12;5:2;142:56:0;;;;;;;",
-  "deployedSourceMap": "142:56:0:-;;;;;;;;;;;;;;;;;;;;;;;;167:25;;8:9:-1;5:2;;;30:1;27;20:12;5:2;167:25:0;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o",
-  "source": "// SPDX-License-Identifier: MIT \r\n// Declare Solidity version\r\npragma solidity ^0.5.0;\r\n\r\n// Declare the contract, all is written between {}\r\ncontract TodoList {\r\n    uint public taskCount = 0;\r\n\r\n}",
+  "bytecode": "0x608060405260008055348015601357600080fd5b506099806100226000396000f3fe608060405260043610603e5763ffffffff7c0100000000000000000000000000000000000000000000000000000000600035041663b6cb58a581146043575b600080fd5b348015604e57600080fd5b5060556067565b60408051918252519081900360200190f35b6000548156fea165627a7a72305820e1470f27f9cc0206fec8aee777e4c0bfb9dbc91188e36de012033c0971833eb80029",
+  "deployedBytecode": "0x608060405260043610603e5763ffffffff7c0100000000000000000000000000000000000000000000000000000000600035041663b6cb58a581146043575b600080fd5b348015604e57600080fd5b5060556067565b60408051918252519081900360200190f35b6000548156fea165627a7a72305820e1470f27f9cc0206fec8aee777e4c0bfb9dbc91188e36de012033c0971833eb80029",
+  "sourceMap": "142:54:0:-;;;191:1;167:25;;142:54;8:9:-1;5:2;;;30:1;27;20:12;5:2;142:54:0;;;;;;;",
+  "deployedSourceMap": "142:54:0:-;;;;;;;;;;;;;;;;;;;;;;;167:25;;8:9:-1;5:2;;;30:1;27;20:12;5:2;167:25:0;;;;;;;;;;;;;;;;;;;;;;;;:::o",
+  "source": "// SPDX-License-Identifier: MIT \r\n// Declare Solidity version\r\npragma solidity ^0.5.0;\r\n\r\n// Declare the contract, all is written between {}\r\ncontract TodoList {\r\n    uint public taskCount = 0;\r\n}",
   "sourcePath": "C:/Users/p.fraisse/Documents/Projects/Personnal projects/eth-todo-list/contracts/TodoList.sol",
   "ast": {
     "absolutePath": "/C/Users/p.fraisse/Documents/Projects/Personnal projects/eth-todo-list/contracts/TodoList.sol",
@@ -101,10 +102,10 @@
           }
         ],
         "scope": 6,
-        "src": "142:56:0"
+        "src": "142:54:0"
       }
     ],
-    "src": "63:135:0"
+    "src": "63:133:0"
   },
   "legacyAST": {
     "absolutePath": "/C/Users/p.fraisse/Documents/Projects/Personnal projects/eth-todo-list/contracts/TodoList.sol",
@@ -185,18 +186,25 @@
           }
         ],
         "scope": 6,
-        "src": "142:56:0"
+        "src": "142:54:0"
       }
     ],
-    "src": "63:135:0"
+    "src": "63:133:0"
   },
   "compiler": {
     "name": "solc",
     "version": "0.5.0+commit.1d4f565a.Emscripten.clang"
   },
-  "networks": {},
+  "networks": {
+    "5777": {
+      "events": {},
+      "links": {},
+      "address": "0x6f7b231022bAdD96C1C21167D53dB7aBAE0FE6B7",
+      "transactionHash": "0x1204c8a53d3af4f3f8a79a3e26092c0ca45c6e32abaa5eecf9d0c8e058ad8412"
+    }
+  },
   "schemaVersion": "3.0.1",
-  "updatedAt": "2023-10-15T09:46:28.607Z",
+  "updatedAt": "2023-10-15T14:31:19.873Z",
   "devdoc": {
     "methods": {}
   },
